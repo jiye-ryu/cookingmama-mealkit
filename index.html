@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>쿠킹마마의 밀키트</title>
+	<style type="text/css">
+		@font-face {font-family: 'SBAggroB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff'); font-weight: normal; font-style: normal;}
+    	@font-face {font-family: 'SBAggroM';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');font-weight: normal;font-style: normal;}
+		@font-face {font-family: 'SBAggroL';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');font-weight: normal;font-style: normal;}
+		@font-face {font-family: 'GmarketSansBold';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');font-weight: normal;font-style: normal;}
+		@font-face {font-family: 'GmarketSansMedium';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');font-weight: normal;font-style: normal;}
+		@font-face {font-family: 'GmarketSansLight';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');font-weight: normal;font-style: normal;}
+		@font-face {font-family: 'LeferiBaseType-RegularA';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');font-weight: normal;font-style: normal;}
+		body, h1, h2, h3, h4, p, ol, li, ul{margin: 0; padding: 0;}
+		header {height: 900px;}
+		.bg-header {background: url('header1.png'); background-size: cover; background-position: 0px 0px ; background-attachment: fixed;}
+		nav{background: #FFFBC5; height: 44px; position: sticky; top: 0;}
+		nav ul{width: 800px; height: 44px; margin-right: 25%; margin-left: 25%;}
+		nav li{list-style-type: none; width: 25%; height: 44px; float: left; text-align: center; line-height: 44px;}
+		 a{font-family: 'GmarketSansBold'; font-size: 20px; display:block; color: #4E1010; text-decoration: none; }
+		 a:hover{box-shadow: none; color: #FF7139;}
+
+		section {padding: 0; margin: auto;}
+		.row{width: 900px; margin: auto; display: flex; flex-wrap: wrap; padding: 0px 5px; margin-bottom: 0px;}
+		.col-1{width: 215px;}
+		.col-2{width: 440px;}
+		.col-2text {width: 440px;}
+		.col-3{width: 665px; margin:50px 5px;}
+		.col-35{width: 665px;}
+		.col-4{width: 890px; margin:50px 5px;}
+		.col-4center{width: 890px; margin:10px 5px; text-align: center;}
+		.col-3x3{width: 290px; margin:5px 5px;}
+		.col-3x3-2{width: 590px; margin: 5px 5px;}
+		.bg-check{background: url('check2.png'); background-size: cover; background-position: 0px 0px ; background-attachment: fixed;}
+		.ex1{font-family: 'SBAggroM'; font-size: 36px; display: block; padding-bottom: 10px; line-height: 1.2;}
+		.ex2{font-family: 'LeferiBaseType-RegularA'; font-size: 24px;display: block; padding-bottom: 100px; line-height: 1.5;}
+		.ex3{font-family: 'LeferiBaseType-RegularA'; font-size: 24px;display: block; padding-top: 100px; line-height: 1.5;}
+		.ex4{font-family: 'LeferiBaseType-RegularA'; font-size: 24px;display: block;  line-height: 1.5;}
+		.ex5{font-family: 'GmarketSansMedium'; font-size: 24px;display: block;  line-height: 1.5; padding-top: 100px;}
+		.bg-craft{background: url('craft.png'); background-size: cover; background-position: 0px 0px ; background-attachment: fixed;}
+		.bg-red{background-color: #FF7139;}
+		.bg-green{background-color: darkgreen;}
+		.bg-kitchen{background: url('cute2.png'); background-size: cover; background-position: 0px 0px ; background-attachment: fixed;}
+		.t-blue{color: #55BEFF;}
+		.t-purple{color: #BB52FF;}
+		.t-red{color: #FF6D50;}
+		.jb-a {width: 890px; margin: 0px 0px 100px; position: relative;}
+		
+		.jb-c {position: absolute; top: 0px; left: 0px; opacity: 0; transition: opacity 0.5s linear;}
+
+		.jb-a:hover .jb-c{opacity: 1;}
+		.text-footer:hover{color: white;}
+
+		footer{padding: 0px; margin: auto;}
+
+		h1 {font-family: 'SBAggroM'; font-size: 40px; color: #4E1010; line-height: 1.4;}
+		h2 {font-family: 'GmarketSansMedium'; font-size: 20px; color: #4E1010; line-height: 1.4;}
+		h3 {font-family: 'GmarketSansBold'; font-size: 40px; color: #4E1010; text-align: center; }
+		h4 {font-family: 'GmarketSansBold'; font-size: 24px; padding: 4px 12px 4px; color: #FFFBC5; background: #FF7139; margin-bottom: 20px;}
+		
+
+		img{width: 100%;}
+		.size {width: 500px;}
+		.size1 {width: 450px;}
+		.size1:hover{transform: scale(1.1); transition: transforrm.2s; }
+		.size2 {width: 890px;}
+		.mama {width: 890px; margin:10px 5px; text-align: center;}
+		.size4 {width: 300px;}
+		.size4:hover{transform: scale(1.4); transition: transforrm.3s; ransition-timing-function: ease; transition-property: all;
+    transition-delay: 0s;}
+		em{font-style: normal; color: #FF7139;}
+		ol {padding: 20px 20px;}
+		.what1{font-family: 'GmarketSansBold'; font-size: 20px;}
+		.what2 {font-family:'LeferiBaseType-RegularA'; font-size: 16px; line-height: 1.6; word-break: keep-all;}
+
+	</style>
+</head>
+
+<body>
+
+	<header class="bg-header" id="header">
+	<section>
+		<div class="row">
+			<div class="col-4" style="margin-top: 300px;">
+	<h1>Cooking mama's<br>Meal-kit.</h1></div>
+	<br>
+	<div class=" col-2" style="margin-top: 30px;">
+	<h2>게임 속 요리가 내 눈앞에 펼쳐진다면...?<br>
+		쿠킹마마의 비법이 담겨 있는 요리를<br>
+		간편한 밀키트로 만나보세요!</h2>
+	</div>
+		</div>
+	</section>
+	</header>
+
+<nav>
+	<ul>
+		<li>
+			<a href="#a">제품 소개</a>
+			</li>
+		<li>
+			<a href="#b">구성품</a>
+		</li>
+		<li>
+			<a href="#c">조리 방법</a>
+		</li>
+		<li>
+			<a href="#d">사전 예약 안내</a>
+		</li>
+	</ul>
+</nav>
+
+	<section class="bg-check">
+		<div class="row">
+		<div class="col-2"><img src="nintendo.png"></div>
+		<div class="col-2" style="padding: 115px 0px">
+		<h3> 추억의 게임 <br> 쿠킹마마가</h3></div>
+		<div class="col-2" style="padding: 115px 0px">
+		<h3>밀키트로 <br> 돌아왔다!</h3></div>
+		<div class="col-2"><img src="mealmeal.png"></div>
+	</div>
+	</section>
+
+	<section id="a">
+		<div class="row"><img src="mockup.png"></div>
+		<div class="row"><h4 style="padding: 4px 14px 4px;">1</h4></div>
+		<div class="row">
+		<p class="ex1">게임 속 레시피를 그대로 재현했어요.</p>
+		<p class="ex2">밀키트에는 마마의 특제 비법이 그대로 반영되어 있어요.<br>다소 황당한 재료가 나오더라도 당황하지 마세요!</p></div>
+		<div class="row"><h4>2</h4></div>
+		<div class="row">
+		<p class="ex1">비밀 레시피에서만 만날 수 있는<br>특별한 요리까지,</p>
+		<p class="ex2">더 재밌게 요리를 즐기고 싶다면, 랜덤으로 요리가 나오는 비밀 <br>레시피를 이용해보세요! <em>기대하지 않았던 특별한 요리가 나올지도 <br>몰라요.</em> 혹시 못 먹는 재료가 들어있으면 어떡하냐구요? 걱정마세요! <br>비밀레시피어도 메인 재료와, 알레르기를 유발하는 물질은 <br>표시되어 있답니다.</p></div>
+		<div class="row"><h4>3</h4></div>
+		<div class="row">
+		<p class="ex1">게임과 요리를 함께 즐겨보세요!</p>
+		<p class="ex2">패키지에 있는 QR코드로 쿠킹마마 미니 게임에 접속할 수 있어요. <br>게임을 플레이하며 게임 속 음식을 직접 만들어보면 재미가 두 배! </p></div>
+	</section>
+
+	<section class="bg-craft" id="b">
+		<div class="row">
+		<div class="col-4"><h3 style="color: white; margin-top: 50px;">밀키트에는 무엇이?</h3></div>
+		<div class="col-3x3"><img src="component1.png"></div>
+		<div class="col-3x3"><img src="qrcode2.png"></div>
+		<div class="col-3x3"><img src="illustcard.png"></div>
+
+		<div class="col-3x3">
+			<p class="what1">신선한 식재료</p></div>
+
+			<div class="col-3x3"> <p class="what1">QR코드</p></div>
+
+			<div class="col-3x3"><p class="what1">일러스트 카드</p></div>
+			<div class="col-3x3" style="margin-bottom: 100px;">
+			<p class="what2">국내산 유기농 식재료만을 사용하여, 안심하고 먹을 수 있어요.</p>
+		</div >
+		
+			<div class="col-3x3">
+			<p class="what2">카메라로 찍으면, 미니게임으로 이동하여 조리할 밀키트 음식을 게임으로 플레이 할 수 있어요!</p></div>
+		
+		<div class="col-3x3">
+			<p class="what2">큐알 사용이 불가능할 때를 대비해 만든 것으로 쿠킹마마 게임 장면을 일러스트로 재구성했어요.</p>
+		</div>
+		</div>
+	</div>
+	</section>
+
+
+	<section class="bg-check">
+		<div class="row" style="padding: 50px 0px 100px">
+		<div class="col-3x3-2"><h3 style="text-align: left; margin-top: 50px;" >엥, 조리법이 없다구요?!<br>걱정마세요.<br> 쿠킹마마가 도와줄게요~</h3> <p class="ex3">QR코드를 찍고 미니 게임에 접속해보세요!<br>큐알 사용이 불가능할 땐 일러스트 카드를 뜯어봐요!</p></div>
+		<div class="col-3x3"><img src="mama4.png"></div>
+		<div class="col-3x3-2"><img src="qrcode3.png"></div>
+		<div class="col-3x3"><img src="illustcard3.png" style="padding-top:252px"></div>
+	</div>
+	</section>
+
+	<section id="c" class="bg-kitchen">
+		<div class="row" style="padding: 50px 0px 100px;">
+		<div class="col-4" ><h3 style="text-align: left;">게임 과정을 따라<br>신나게 만들면 완성!</h3></div>
+		<div class="col-35"><p class="ex5" style="color: #55BEFF; margin-top: 20px;">파스타를 삶아보자!</p>
+			<p class="ex4">면을 삶을 땐 소금을 조금 넣어주면 더욱 쫄깃해져요.<br>눌어붙지 않게 젓가락을 이용해 저어 주는 것도 잊지 마세요!</p></div>
+			<div class="col-1"><img src="cook1.png"></div>
+			<div class="jb-a">
+				<img src="nembi.png" alt="" class="jb-b">
+				<img src="cooking1.png" alt="" class="jb-c"></div>
+			<div class="col-35"><p class="ex5" style="color: #BB52FF; margin-top: 50px;">썰어보자!</p>
+			<p class="ex4">양파와 피망, 소세지는 먹기 좋은 크기로 얇게 잘라주세요.<br>양파를 자를 때는 칼에 물을 적셔 자르면 눈이 맵지 않아요!</p></div>
+			<div class="col-1"><img src="cook2.png"></div>
+			<div class="jb-a">
+				<img src="cut.png" alt="" class="jb-b">
+				<img src="cooking2.png" alt="" class="jb-c"></div>
+			<div class="col-35"><p class="ex5" style="color: #FF6D50; margin-top: 50px;">볶아보자!</p>
+			<p class="ex4">야채가 어느 정도 익으면 면을 넣고 함께 볶아 주세요.<br>토마토 케찹이 잘 베이도록 고루 섞어 주는 것도 중요해요!</p></div>
+			<div class="col-1"><img src="cook3.png"></div>
+			<div class="jb-a">
+				<img src="fried.png" alt="" class="jb-b">
+				<img src="cooking3.png" alt="" class="jb-c"></div>
+			<div class="col-4"> <h3>.<br>.<br>.<br><br></h3></div>
+			<div class="jb-a">
+				<img src="pasta.png" alt="" class="jb-b">
+				<img src="cooking4.png" alt="" class="jb-c"></div>
+		</div>
+		
+	</section>
+
+<section class="bg-red">
+
+	<div class="row" style="padding:100px 0px">
+		<div class="mama"><img src="good.png" class="size4"></div>
+		<div class="col-4">
+	<h3>“완벽해! 엄마보다 잘 하네.<br>엄청 잘했어.”</h3>
+</div>
+</div>
+</section>
+
+<section id="d" class="bg-check">
+	<div class="row" style="padding-top: 100px">
+	<div class="col-4center"><img src="infor.png" class="size"></div>
+	<div class="col-4center"><a href="https://youtu.be/qycn-u3j-wc" target="_new"><img src="icon.png" class="size1"></a></div>
+		<div>
+		<div class="col-4">
+		<p class="what1" style="color: #4E1010;">유의사항</p>
+		<ol class="what2" style="color: #4E1010;">
+		<li>‘쿠킹마마 밀키트 - 비밀 레시피’는 랜덤 시리즈이므로, 
+    개봉 후 제품에 이상이 있지 않는 한 교환, 환불이 불가능합니다.</li>
+<li>‘쿠킹마마 밀키트 - 소바’요리는 원작 요소를 그대로 반영하여, 소바면이 아닌 메밀 가루가 포함되어 있으므로<br> 직접 반죽해서 면으로 수타하셔야 합니다.</li>
+<li>개개인의 실력 차에 따라 실제 밀키트 요리의 완성도가 다를 수 있으니 유의바랍니다.</li>
+<li>미니게임에 빠져 밀키트의 조리 시간을 초과하지 않도록 유의바랍니다. </li>
+</p>
+</ol>
+</div>
+	</div>
+</section>
+
+<footer class="bg-craft">
+	<div class="row" style="padding: 50px 0px 0px;"><a class="text-footer" href="#header"><p class="what1">Cooking mama's<br>meal-kit</p></a></div>
+	<div class="row" style="padding: 50px 0px">
+		<p class="what2">(주)탄이네 | 10881 서울특별시 노원구 공릉로 232 |<br>
+사업자번호 530-21-19750 | 대표자 : 류지예 | 이메일 : rjy0923@gmail.com<br>
+고객센터 전화번호 : 02-970-6114 | 사업자등록번호 : 412-12-97805 | 대표 이메일 : tantan@gmail.com<br>
+COPYRIGHT 2022 (주) Choiryutan Corp.</p></div>
+<div class="row" style="padding-bottom: 50px;"><p class="what2">Designed by RYU JIYEⓒ2022 All rights reserved</p></div>
+</footer>
+</body>
+</html>
